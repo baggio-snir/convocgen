@@ -5,13 +5,13 @@ Generates a big chunky HTML document following a template and a CSV data file.
 usage: `php convocgen.php [options]`
 
 options:
-    - `-h`, `--help`              Display this help
-    - `-v`, `--verbose`           Enable verbose output
-    - `-o`, `--output <file>`     Output file (by default, will output in stdout)
-    - `-t`, `--template <file>`   Template file (by default, will use tpl.php)
-    - `-d`, `--data <file>`       Data file (by default, will use data.csv)
-    - `--nohead`                  Disable auto-header reading; file starts at the very first line
-    - `--ignore <nb>`             Ignore the first <nb> lines; used only if --nohead is used
+- `-h`, `--help`              Display this help
+- `-v`, `--verbose`           Enable verbose output
+- `-o`, `--output <file>`     Output file (by default, will output in stdout)
+- `-t`, `--template <file>`   Template file (by default, will use tpl.php)
+- `-d`, `--data <file>`       Data file (by default, will use data.csv)
+- `--nohead`                  Disable auto-header reading; file starts at the very first line
+- `--ignore <nb>`             Ignore the first <nb> lines; used only if --nohead is used
 
 
 Will process template file, using each data line from data file,
