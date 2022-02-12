@@ -118,7 +118,7 @@ class Gen {
         echo <<<'EOT'
 Generates a big chunky HTML document following a template and a CSV data file.
 
-usage: php index.php [options]
+usage: php convocgen.php [options]
 
 options:
     -h, --help              Display this help
